@@ -1,0 +1,107 @@
+\documentclass{article}
+\usepackage[most]{tcolorbox}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\setlength\parindent{.5em}
+\setlength{\itemindent}{-.5in}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+
+\begin{document}
+  \begin{tcolorbox}
+    {\fontsize{21}{11}\bfseries\begin{tabular}[c]{l}
+      Your Name %% You can enter your name
+    \end{tabular}}\hfill
+    {\small\begin{tabular}[c]{r}
+      Phone Number \\ %% You can enter your phone number
+      \href{mailto: Email Address}{Email Address} \\ %% You can enter your email address
+      LinkedIn: \href{LinkedIn url}{gunayelcinesin} \\ %% You can enter your LinkedIn link and the way that you want to appear in your resume.
+      GitHub: \href{GitHub url}{GitHub Name Appearance} \\ %% You can enter your GitHub Link and the way that you want to appear in your resume.
+    \end{tabular}}
+  \end{tcolorbox}
+
+    \bigskip
+    
+       %-----------------------------
+    %-- PROFESSIONAL LIFE
+    %-----------------------------
+    \begin{tabular}[c]{l}
+      \textbf{Professional Life} \end{tabular} 
+      \hline \hline \vspace{2pt}
+      \begin{tabular}[c]{l} \textbf{Time Period} \end{tabular} \hfill
+      \begin{tabular}[c]{c} \textbf{Your Position} \end{tabular} \hfill
+      \begin{tabular}[c]{r} \textbf{Company Name} 
+    \end{tabular}
+    
+   \begin{description}[style=nextline, listparindent=\parindent, parsep=0pt,                     \vspace{-1pt}]
+    \begin{itemize}[\setstretch{0.5}, leftmargin=.01in]
+        \item First job description.
+        \item Second job description.
+    \end{itemize}
+   \end{description} \\
+
+    \skip
+    
+    %-----------------------------
+    %-- Academic Life
+    %-----------------------------
+    \begin{tabular}[c]{l}
+      \textbf{Academic Life} \end{tabular} 
+      \hline \hline \vspace{2pt}
+      \begin{tabular}[c]{l} \textbf{Time Period} \end{tabular} \hfill
+      \begin{tabular}[c]{c} \textbf{Major} \end{tabular} \hfill
+      \begin{tabular}[c]{r} \textbf{School Name} 
+    \end{tabular}
+    
+   \begin{description}[style=nextline, listparindent=\parindent, parsep=0pt,                     \vspace{-1pt}]
+    \begin{itemize}[\setstretch{0.5}, leftmargin=.01in]
+        \item Your Degree, GPA, and etc.
+        \item Your related courses.
+    \end{itemize}
+   \end{description}
+   
+   \skip
+
+    %-----------------------------
+    %-- Skill Set
+    %-----------------------------
+    \begin{tabular}[c]{l}
+      \textbf{Skill Set} \end{tabular} 
+      \hline \hline \vspace{2pt}
+    
+   \begin{description}[style=nextline, listparindent=\parindent, parsep=0pt,                     \vspace{1pt}]
+    \begin{itemize}[\setstretch{0.5}, leftmargin=.01in]
+        The coding languages that you know and want to share.
+    \end{itemize}
+   \end{description} 
+   
+   \skip
+    %-----------------------------
+    %-- Projects
+    %-----------------------------
+    \begin{tabular}[c]{l}
+      \textbf{Projects} \end{tabular} 
+      \hline \hline \vspace{2pt}
+    
+   \begin{tabular}[c]{l} \textbf{Project Name} \end{tabular} 
+    
+   \begin{description}[style=nextline, listparindent=\parindent, parsep=0pt,                     \vspace{-1pt}]
+    \begin{itemize}[\setstretch{0.5}, leftmargin=.01in]
+        Project description.
+    \end{itemize}
+   \end{description} 
+   
+\end{document}
