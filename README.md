@@ -1,4 +1,4 @@
-# resume_with_latex
+# Resume with LaTeX
 This is a resume template created by using LaTeX. 
 
 
